@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1016955151292",
+    "project_id": "little-green-eats",
+    "storage_bucket": "little-green-eats.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016955151292:android:8305bd0afdf1e0f446c1b9",
+        "android_client_info": {
+          "package_name": "com.example.littlegreeneats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016955151292-0h4uksepjq1gps2s2s8eql5ac5l2ppo2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.littlegreeneats",
+            "certificate_hash": "f6bb837eb2a101758bd1e7cf07b5977312c910f3"
+          }
+        },
+        {
+          "client_id": "1016955151292-50rirl9g8v1mbsmr0fce5nd2f4egc542.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuXa_5NmGNlNTVEgZMZwSK5I5ISnkvE2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016955151292-50rirl9g8v1mbsmr0fce5nd2f4egc542.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

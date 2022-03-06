@@ -10,11 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LittleGreenEats">
         <activity
+            android:name=".SignupPageActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.LoginPage"
-            android:windowSoftInputMode="adjustResize"
-            >
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

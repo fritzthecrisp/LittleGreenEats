@@ -22,71 +22,77 @@
             android:layout_height="150dp"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/lge_logo" />
+
         <EditText
+            android:id="@+id/usernameLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
             android:layout_marginTop="50dp"
-            android:hint="Username"
-            android:drawablePadding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:background="@drawable/login_edit_background"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:padding="10dp"/>
-        <EditText
-            android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            android:layout_marginTop="10dp"
-            android:hint="Password"
+            android:background="@drawable/login_edit_background"
             android:drawablePadding="10dp"
+            android:hint="Username"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/passwordLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
             android:background="@drawable/login_edit_background"
+            android:drawablePadding="10dp"
+            android:hint="Password"
+            android:padding="10dp"
             android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:padding="10dp"/>
+            android:textColorHint="@color/white" />
 
         <TextView
+            android:id="@+id/forgotPasswordBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="end"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            android:text="Forgot Password ?"
             android:padding="10dp"
-            android:layout_gravity="end"/>
+            android:text="Forgot Password ?" />
+
         <Button
+            android:id="@+id/loginBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_background"
             android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
             android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_background"
+            android:padding="10dp"
             android:text="Log In"
             android:textAllCaps="false"
-            android:textSize="21sp"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
-            android:padding="10dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="30dp"
-            />
+            android:textSize="21sp" />
 
 
         <TextView
+            android:id="@+id/SignupPageBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign Up"
-            android:textAllCaps="false"
-            android:textSize="21sp"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            android:layout_gravity="center_horizontal"
-            />
+            android:padding="10dp"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="21sp" />
 
 
     </LinearLayout>
