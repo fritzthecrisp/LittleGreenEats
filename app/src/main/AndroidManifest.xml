@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LittleGreenEats">
         <activity
+            android:name=".HomePageActivity"
+            android:exported="false" />
+        <activity
             android:name=".SignupPageActivity"
             android:exported="false" />
         <activity
